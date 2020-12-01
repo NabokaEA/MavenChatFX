@@ -7,20 +7,41 @@
    <bottom>
       <HBox alignment="CENTER_RIGHT" prefHeight="50.0" prefWidth="600.0" BorderPane.alignment="CENTER">
          <children>
-            <VBox alignment="CENTER_LEFT" prefHeight="50.0" prefWidth="347.0">
+            <VBox alignment="CENTER_LEFT" prefHeight="50.0" prefWidth="332.0">
                <children>
-                  <TextField />
+                  <TextField prefHeight="25.0" prefWidth="317.0" />
                </children></VBox>
-            <VBox alignment="CENTER" prefHeight="50.0" prefWidth="62.0">
+            <VBox alignment="CENTER" prefHeight="50.0" prefWidth="78.0">
                <children>
-                  <Button mnemonicParsing="false" text="Button" />
+                  <Button mnemonicParsing="false" prefHeight="25.0" prefWidth="97.0" text="Отправить" />
                </children></VBox>
             <VBox prefHeight="50.0" prefWidth="10.0" />
          </children>
       </HBox>
    </bottom>
    <top>
-      <HBox prefHeight="50.0" prefWidth="600.0" BorderPane.alignment="CENTER" />
+      <HBox alignment="CENTER_LEFT" prefHeight="33.0" prefWidth="600.0" BorderPane.alignment="CENTER">
+         <children>
+            <MenuBar>
+              <menus>
+                <Menu mnemonicParsing="false" text="Файл">
+                  <items>
+                    <MenuItem mnemonicParsing="false" text="Close" />
+                  </items>
+                </Menu>
+                <Menu mnemonicParsing="false" text="Редактировать">
+                  <items>
+                    <MenuItem mnemonicParsing="false" text="Delete" />
+                  </items>
+                </Menu>
+                <Menu mnemonicParsing="false" text="Справка">
+                  <items>
+                    <MenuItem mnemonicParsing="false" text="About" />
+                  </items>
+                </Menu>
+              </menus>
+            </MenuBar>
+         </children></HBox>
    </top>
    <center>
       <TextArea prefHeight="200.0" prefWidth="100.0" BorderPane.alignment="CENTER" />
