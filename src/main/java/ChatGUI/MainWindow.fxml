@@ -1,8 +1,34 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
+<?import javafx.scene.control.*?>
 <?import javafx.scene.layout.*?>
 
-
-<AnchorPane prefHeight="600.0" prefWidth="400.0" xmlns="http://javafx.com/javafx/11.0.2" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ChatGUI.MainWindowController">
-
-</AnchorPane>
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/11.0.2" xmlns:fx="http://javafx.com/fxml/1">
+   <bottom>
+      <HBox alignment="CENTER_RIGHT" prefHeight="50.0" prefWidth="600.0" BorderPane.alignment="CENTER">
+         <children>
+            <VBox alignment="CENTER_LEFT" prefHeight="50.0" prefWidth="347.0">
+               <children>
+                  <TextField />
+               </children></VBox>
+            <VBox alignment="CENTER" prefHeight="50.0" prefWidth="62.0">
+               <children>
+                  <Button mnemonicParsing="false" text="Button" />
+               </children></VBox>
+            <VBox prefHeight="50.0" prefWidth="10.0" />
+         </children>
+      </HBox>
+   </bottom>
+   <top>
+      <HBox prefHeight="50.0" prefWidth="600.0" BorderPane.alignment="CENTER" />
+   </top>
+   <center>
+      <TextArea prefHeight="200.0" prefWidth="100.0" BorderPane.alignment="CENTER" />
+   </center>
+   <left>
+      <VBox prefHeight="300.0" prefWidth="180.0" BorderPane.alignment="CENTER" />
+   </left>
+   <right>
+      <VBox prefHeight="300.0" prefWidth="10.0" BorderPane.alignment="CENTER" />
+   </right>
+</BorderPane>
